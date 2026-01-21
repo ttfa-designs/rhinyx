@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rhinyx</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Rhinyx Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80" alt="Contact Us" class="hero-img">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>GET IN TOUCH</h1>
+            <p>Let's discuss your mining and industrial support needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-section">
+                    <div class="section-header">
+                        <h2>CONTACT <span class="highlight">INFORMATION</span></h2>
+                    </div>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <h3>Location</h3>
+                            <p>Gauteng, South Africa</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@rhinyx.co.za">info@rhinyx.co.za</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-globe"></i></div>
+                            <h3>Website</h3>
+                            <p><a href="http://www.rhinyx.co.za" target="_blank">www.rhinyx.co.za</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <h3>Phone Numbers</h3>
+                            <p><a href="tel:+27763308823">076 330 8823</a></p>
+                            <p><a href="tel:+27711588224">071 158 8224</a></p>
+                            <p><a href="tel:+27765756828">076 575 6828</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <h2>SEND US A <span class="highlight">MESSAGE</span></h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="">Select Service Interest</option>
+                                <option value="machinery">Machinery & Plant Hire</option>
+                                <option value="adt30">30-ton ADT</option>
+                                <option value="adt45">45-ton ADT</option>
+                                <option value="excavator">85-ton Excavator</option>
+                                <option value="dozer">D8 Dozer</option>
+                                <option value="loader">966 Front-End Loader</option>
+                                <option value="grader">Grader</option>
+                                <option value="toilet">Mobile Toilet Hire</option>
+                                <option value="waste">Waste Collection</option>
+                                <option value="diesel">Diesel Supply</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your project or requirements" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">SEND MESSAGE →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="map-section">
+        <div class="map-placeholder">
+            <div class="map-overlay">
+                <h3>GAUTENG, SOUTH AFRICA</h3>
+                <p>Serving mining operations across South Africa</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo.svg" alt="Rhinyx Logo" class="footer-logo">
+                    <h3>RHINYX</h3>
+                    <p>Power that moves mines</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Information</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> info@rhinyx.co.za</li>
+                        <li><i class="fas fa-globe"></i> www.rhinyx.co.za</li>
+                        <li><i class="fas fa-phone"></i> 076 330 8823</li>
+                        <li><i class="fas fa-phone"></i> 071 158 8224</li>
+                        <li><i class="fas fa-phone"></i> 076 575 6828</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Gauteng, South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rhinyx. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
